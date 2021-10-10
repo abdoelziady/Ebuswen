@@ -1,0 +1,417 @@
+
+/* very small */
+@media (max-width:767px)
+{
+    /* Start Header */
+    .header .Slider .carousel-indicators
+    {
+        display:none;
+    }
+    .header .Slider .carousel-control-prev i ,.header .Slider .carousel-control-next i{
+    padding:6px 12px;
+    font-size:22px;
+}
+/* End Header */
+    /* Start About*/
+    
+     .about h5
+{
+    font-size: 18px;
+}
+    .about p , .about .spanlist li ,.faq p
+{
+    font-size: 15px;
+}
+   
+    .about .projectsex
+    {
+        margin-top: 37px;
+    }
+    /* End About*/
+    
+    
+    /* Start FAQ */
+ 
+.faq h1 ,.about h1 ,.services h1
+{
+    font-size: 33px;
+}
+
+.faq .accordion .card .card-header .btn-link
+{
+    font-size: 17px;
+}
+    .faq  p ,.faq .accordion .card .card-body
+{
+     font-size: 15px;
+}
+.faq .accordion
+    {
+        margin-bottom:30px;
+    }
+    .faq .nav-tabs .nav-item
+{
+    font-size:17px;
+}
+
+.faq .tab-content
+{
+    padding:15px;
+}
+
+.faq .tab-content h3
+{
+  font-size: 22px;
+}
+
+    /* End FAQ */
+    
+/* End Section Email */
+
+
+
+.email form
+{
+    padding-top:20px;
+}
+
+.email form input
+{
+    padding:10px 220px 13px 13px;
+    border-radius:26px;
+        border:1px solid white;
+
+}
+.email form .btn
+{
+    margin-top: 20px;
+    width:150px;
+    padding: 10px 11px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+        border:1px solid white;
+
+}
+/* End Section Email */
+    /* Start Section Team */
+    .team .card
+    {
+     height:300px;
+        width:300px;
+        margin: auto;
+        margin-bottom: 170px;
+    }
+    /* End Section Team */
+    
+    .work 
+    {
+        display:none;
+    }
+    
+    /* Start Section port */
+.port
+{
+   padding-top:70px;
+}
+.port .active
+{  
+     padding: .250rem 1rem;
+    font-size: .9rem;
+}
+.port .btnport
+{
+       padding: .250rem 1rem;
+    font-size: .9rem;
+     
+}
+.port .nav-item{
+    margin-left: 17px;
+    
+}
+/* End Section port */
+    .port img
+    {
+     height:300px;
+        width:300px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    
+   
+.quate .jumbotron-fluid h4
+{
+    font-size:20px;
+    padding-bottom:20px;
+}
+.quate .jumbotron-fluid .btnquate
+{
+        padding: .500rem 1.2rem;
+}
+     /* Start Section News */
+    
+.news .card  h5
+{
+    font-weight:400;
+    font-size: 21px;
+}
+    .news .card span  
+{
+    font-weight:400;
+    font-size: 14px;
+}
+.news .card   
+{
+    margin-bottom: 30px
+}
+.news .card .btnnews
+{
+    margin:10px auto;
+    }
+        .news .card p  
+{
+    font-weight:400;
+    font-size: 14px;
+}
+    /* End Section News */
+    
+    .contact .contactdiv span i
+{
+    padding:15px 18px;
+    font-size:18px;
+}
+
+
+.contact .contactdiv 
+{
+    padding-top:30px;
+}
+    
+    .contact form
+    {
+        padding-top:40px;
+    }
+    
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* Small */
+@media (min-width:768px) and (max-width:991px)
+{
+    /* Start Header */
+    .header .Slider .carousel-caption {
+    bottom:22%;
+}
+
+.header .Slider .carousel-caption h3 {
+    font-size:30px;
+}
+    .header .Slider .carousel-caption h2 {
+    font-size:24px;
+}
+
+
+.header .Slider .carousel-control-prev i ,.header .Slider .carousel-control-next i{
+    padding:7px 15px;   
+}
+
+ .header .Slider .carousel-caption .bslider1 ,.header .Slider .carousel-caption .bslider2:hover {
+    padding: .575rem 1.1rem;
+    font-size: .9rem;
+}
+
+.header .Slider .carousel-caption .bslider2 ,.header .Slider .carousel-caption .bslider1:hover  {
+      padding: .575rem 1.1rem;
+    font-size: .9rem;
+}
+/* End Header */
+    
+    .about h1
+{
+    font-size: 35px;
+}
+      .about h5
+{
+    font-size: 18px;
+}
+    .about p , .about .spanlist li
+{
+    font-size: 15px;
+}
+.about .hrr
+{
+    margin-bottom: 50px;
+}
+.about .spanlist
+{
+    margin-bottom:7px;
+}
+.about .spanlist i
+{
+    margin-right:10px;
+}
+
+.faq .accordion .card .card-header .btn-link
+{
+    font-size: 17px;
+}
+    .faq  p ,.faq .accordion .card .card-body
+{
+     font-size: 15px;
+}
+.faq .accordion
+    {
+        margin-bottom:30px;
+    }
+    .faq .nav-tabs .nav-item
+{
+    font-size:17px;
+}
+
+.faq .tab-content
+{
+    padding:15px;
+}
+
+.faq .tab-content h3
+{
+  font-size: 22px;
+}
+      /* Start Section Team */
+    .team .card
+    {
+        margin-bottom: 30px;
+    }
+    /* End Section Team */
+    /* start Section work */
+.work .work-right 
+{
+    height:300px;
+}
+
+.work .work-right h3
+{
+    padding-top:50px;
+    padding-bottom:10px;
+}
+.work .work-right h5
+{
+    line-height: 25px;
+    padding-bottom: 25px;
+    font-size:17px;
+}
+.work .work-right .rback
+{
+   height:300px;
+}
+.work .work-left
+{
+    min-height:300px;
+}
+
+.work .work-right .btn  {
+      padding: .550rem 2.2rem;
+    font-size: 1.2rem;
+}
+/* End Section work */
+    
+     
+    /* Start Section port */
+.port .active
+{  
+     padding: .250rem 1rem;
+    font-size: .9rem;
+}
+.port .btnport
+{
+       padding: .250rem 1rem;
+    font-size: .9rem;
+     
+}
+.port .nav-item{
+    margin-left: 17px;
+    
+}
+/* End Section port */
+    
+    /* sTART Section tABLE */
+
+      .table .card
+    {
+        margin-top: 30PX;
+    }
+    
+.table .card .card-header
+{
+    padding:25px;
+    font-size:23px;
+}
+.table .card .card-header p
+{
+    font-size:17px;
+}
+
+.table .btntabletwo
+{
+    padding: .400rem .9rem;
+    font-size: .9rem;
+}
+.table .btntable,.table .btntabletwo:hover
+{
+        padding: .400rem .9rem;
+    font-size: .9rem;
+    }
+    
+    .news .card 
+{
+text-align: left;
+    border:0px;
+}
+
+ .news .card span  
+{
+    font-weight:400;
+    font-size: 14px;
+}
+     .news .card h5  
+{
+    font-weight:400;
+    font-size: 21px;
+}
+     .news .card p  
+{
+    font-weight:400;
+    font-size: 14px;
+}
+/* End Section Table */
+    
+   
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* large */
+@media (min-width:992px) and (max-width:1199px)
+{
+ /* Start Header */
+    .header .Slider .carousel-caption {
+    bottom:20%;
+}
+
+.header .Slider .carousel-caption h3 {
+    font-size:40px;
+}
+    .header .Slider .carousel-caption h2 {
+    font-size:28px;
+}
+    
+/* End Header */
+    
+    .quate .jumbotron-fluid .btnquate
+{
+        padding: .550rem 1.1rem;
+    font-size: 1rem;
+    }
+    }
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* Default:: xlarge */
+@media (min-width:1200px) 
+{
+    
+}

@@ -1,0 +1,823 @@
+/*Start Section Header */
+
+.header .navbar-expand-lg
+{
+        padding: .2rem 1rem;
+    background: rgba(0,0,0,0.9);
+}
+
+.header .navbar-expand-lg .navbar-brand
+{
+    font-size:35px;
+         font-weight:600;
+}
+
+.header .navbar-expand-lg a
+{
+ color:white;   
+}
+.header .navbar-expand-lg .navbar-brand span
+{
+    color:#007bff;
+    font-size:33px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link
+{
+ font-size: 17px;  
+    padding-left: 25px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:hover
+{
+ color:#007bff;
+    transform: rotateY(30deg);
+    font-weight:bold;
+}
+.header .navbar-expand-lg .navbar-toggler
+{
+    font-size: 1.45rem;
+    line-height: 1.5;
+    color:white;
+    outline: none;
+    border: none;   
+}
+.header .navbar .dropdown-item
+{
+    color:white;
+    padding:10px;
+}
+
+.header .navbar .dropdown-item:hover
+{
+    color:black;
+    font-weight: 600;
+    background-color:#007bff;
+}
+
+.header .navbar .dropdown-divider {
+   margin: 0 0; 
+}
+.header .navbar .dropdown-menu
+{
+    padding: 0 0;
+    margin:0 0;
+  background: rgba(0,0,0,0.5);
+}
+
+
+.header .Slider {
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+
+.header .Slider .carousel-inner .carousel-item img
+{
+    opacity: 0.4;
+}
+
+ .header .Slider .carousel-caption {
+    bottom:26%;
+    left: 15%;
+}
+
+.header .Slider .carousel-caption h3 {
+    font-size:50px;
+    padding-top:10px;
+}
+.header .Slider .carousel-indicators li {
+   background-color: white;
+}
+.header .Slider .carousel-indicators .active {
+   background-color: #007bff;
+}
+.header .Slider .carousel-control-prev i ,.header .Slider .carousel-control-next i{
+   background-color: transparent;
+    border: 1px solid white;
+    padding:10px 18px;
+    font-size:28px;
+    border-radius: 50%;
+    color:white;
+   
+}
+
+.header .Slider .carousel-control-prev i:hover,.header .Slider .carousel-control-next i:hover  {
+   background-color: #007bff;
+    border: 1px solid #007bff;
+    }
+
+.header .Slider .carousel-caption button
+{
+    margin-top:40px;
+}
+
+
+ .header .Slider .carousel-caption .bslider1 ,.header .Slider .carousel-caption .bslider2:hover {
+  color: white;
+    background-color: #007bff;
+    padding: .675rem 1.5rem;
+    font-size: 1.1rem;
+      font-weight:600;
+    border-radius: 1.6rem;
+}
+
+.header .Slider .carousel-caption .bslider2 ,.header .Slider .carousel-caption .bslider1:hover  {
+      padding: .675rem 1.5rem;
+    font-size: 1.1rem;
+      font-weight:600;
+    border-radius: 1.6rem;
+  color: #fff;
+    border-color: white;  
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+/* End Section Header */
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* Start Section About */
+.about
+{
+    background-color: #F0F0F2;
+}
+
+.about .colh
+{
+    color:#007bff;
+}
+
+
+.about p , .about .spanlist li
+{
+    color:gray;
+}
+.about .hrr
+{
+    border:1px solid black;
+    margin-top: 0.5rem;
+    margin-bottom: 60px;
+}
+.about .spanlist
+{
+    margin-bottom:15px;
+}
+.about .spanlist i
+{
+    margin-right:10px;
+}
+/* End Section About */
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* Start Section Services */
+
+.services .hrr
+{
+    border:1px solid black;
+    margin-top: 0.5rem;
+    margin-bottom: 50px;
+}
+
+.services .card ,.services .card .card-body p:hover
+{
+    color:#444;
+}
+.services .card .card-body i 
+{
+font-size: 2.4rem;
+    padding-bottom: 15px;
+}
+.services .card .card-body h3
+{
+font-weight:400;
+    font-size: 24px;
+} 
+.services .card .card-body p
+{
+    font-size:15px;
+    color:gray;
+}
+.services .card .carddiv:hover
+{
+    color:#007bff;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+.services .colh ,.faq .colh
+{
+    color:#007bff;
+}
+
+
+/* End Section Services */
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* Start Section FAQ */
+
+.faq .hrr
+{
+    border:1px solid black;
+    margin-top: 0.5rem;
+    margin-bottom: 50px;
+}
+
+
+.faq .accordion .card .card-header
+{
+padding:0px;
+    background-color:#F0F0F2;
+}
+.faq .accordion .card .card-body
+{
+    color:gray;
+}
+.faq .accordion .card .card-header .btn-link
+{
+    padding:0px;
+    padding-left:30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.faq .accordion .card .card-header .btn-link:hover ,.faq .accordion .card .card-header .btn-link:active
+{
+   text-decoration: none;
+    color:black;
+}
+.faq .nav-tabs .nav-item
+{
+    font-weight: 500;
+    font-size:19px;
+}
+
+.faq .tab-content
+{
+    padding:20px;
+    border:1px solid #DEE2E6;
+    border-top:0px;
+}
+
+.faq .tab-content p ,.faq .tab-content h3
+{
+    text-align: left;
+}
+.faq .tab-content p
+{
+    color:gray;
+}
+.faq .tab-content h3
+{
+    font-weight:400;
+}
+/* End SEction FAQ */
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* Start Section Email */
+
+.faq  ,.services ,.about
+{
+    padding-top:70px;
+    padding-bottom:70px;
+}
+.faq h1 ,.about h1 ,.services h1 
+{
+    font-size: 42px;
+    color:#444;
+}
+
+.email h1
+{
+    font-size:45px;
+}
+.email .lead
+{
+    font-weight:400;
+}
+.email
+{
+    min-height: 400px;
+    background-image:url(../img/bg1.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center center;
+     margin-top:70px;
+    margin-bottom:70px;
+    
+}
+.email .backjumbo
+{
+    background-color:rgba(3,3,3,0.8);
+    height:400px;
+}
+.email .fro
+{
+    padding-top:80px;
+}
+.email form
+{
+    padding-top:50px;
+}
+
+.email form input
+{
+        font-size: 1.1rem;
+    font-weight: 500;
+       transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    padding:13px 230px 13px 15px;
+    border-radius:26px;
+    border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    background-color: transparent;
+    color:white;
+    border:1px solid white;
+    margin-right:-5px;
+     border-right:0px;
+}
+.email form .btn
+{
+    font-weight: 700;
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid white;
+   border-left:0px;
+    width:190px;
+    padding: 12px 15px 10px ;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    border-radius: 26px;
+    margin:0px;
+    margin-bottom: 5px;
+      border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+/* End Section Email */
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* Start Section Team */
+
+.team .card
+{
+    color:#444;
+}
+.team .card h3
+{
+    font-weight:500;
+    font-size:22px;
+}
+.team .card .card-body
+{
+    padding:1rem;
+    padding-bottom:0px;
+}
+/* End Section Team */
+/* start Section work */
+.work 
+{
+    position: relative;
+    width:100%;
+}
+.work .work-right 
+{
+    position: absolute;
+  width: 50%;
+    left:50%;
+    height:400px;
+    background-image: url(../img/bg1.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+.work .work-right h3
+{
+    padding-top:70px;
+    padding-bottom:13px;
+}
+.work .work-right h5
+{
+    line-height: 36px;
+    padding-bottom: 50px;
+}
+.work .work-right .rback
+{
+    background-color: rgba(3,3,3,0.8);
+   height:400px;
+}
+.work .work-left
+{
+    position: absolute;
+  width: 50%;
+    float: left;
+    min-height:400px;
+    background-image: url(../img/2.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.work .work-right .btn:hover {
+  color: white;
+     background-color: #007bff;
+    border: 1px solid #007bff;
+}
+
+.work .work-right .btn  {
+      padding: .600rem 2.6rem;
+    font-size: 1.3rem;
+      font-weight:600;
+    border-radius: 1.6rem;
+  color: #fff; 
+    background-color: transparent;
+    border: 1px solid white;
+}
+/* End Section work */
+
+/* Start Section port */
+.port
+{
+   padding-top:470px;
+     padding-bottom:70px;
+}
+.port .active
+{
+  color: white;
+     background-color: #007bff;
+    border: 1px solid #007bff;   
+     padding: .300rem 1.1rem;
+    font-size: 1rem;
+      font-weight:600;
+    border-radius: 2rem;
+}
+.port .btnport
+{
+        padding: .300rem 1.1rem;
+    font-size: 1rem;
+      font-weight:600;
+    border-radius: 2rem;
+  color: black; 
+    background-color: transparent;
+    border: 1px solid black;
+}
+.port .btnport:hover{
+  color: white;
+     background-color: #007bff;
+    border: 1px solid #007bff;
+}
+.port .active:hover
+{
+    color: black; 
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.port .nav-item{
+    margin-left: 20px;
+    
+}
+/* End Section port */
+.faq  ,.services ,.about,.team ,.work ,.table
+{
+    padding-top:70px;
+    padding-bottom:70px;
+}
+.faq h1 ,.about h1 ,.services h1 ,.team h1 ,.port h1 ,.table h1
+{
+    font-size: 42px;
+    color:#444;
+}
+.services .colh ,.faq .colh ,.team .colh ,.email .colh ,.port .colh ,.table .colh
+{
+    color:#007bff;
+}
+/* Start Section TAble */
+.table ,.table .card .abdo
+{
+    background-color:#DEDEE5;
+}
+.table .card .abdo
+{
+    border:1px solid white;
+}
+.table .card .card-header
+{
+    padding:40px;
+    font-size:26px;
+    font-weight:bold;
+}
+.table .card .card-header p
+{
+    font-size:19px;
+    font-weight:600;
+}
+
+.table .btntabletwo
+{
+    padding: .450rem 1.2rem;
+    font-size: 1rem;
+    margin:20px;
+    border-radius: 2rem;
+  color: white; 
+    background-color: #007bff;
+    border: 1px solid #007bff;
+}
+.table .btntable,.table .btntabletwo:hover
+{
+        padding: .450rem 1.2rem;
+    font-size: 1rem;
+    margin:20px;
+    border-radius: 2rem;
+  color: white; 
+    background-color: #444;
+    border: 1px solid #444;
+}
+.table .btntable:hover{
+  color: black;
+     background-color: white;
+    border: 1px solid black;
+}
+/* End Section Table */
+
+/* Start Section Comment */
+.comment
+{
+    background:url(../img/bg2.jpg) no-repeat center center fixed;
+    min-height: 350px;
+    margin-bottom:70px;
+    color:white;
+}
+
+.comment .commentback
+{
+    height:350px;
+    background-color:rgba(3,3,3,.7);
+}
+
+.comment .carousel-inner i
+{
+    margin-top:50px;
+     font-size: 1.7rem;
+    background-color:transparent;
+    padding: 20px;
+    border:1px dashed white;
+    border-radius:50%;
+}
+
+.comment .carousel-inner .carousel-item .lead
+{
+  font-size: 1rem;
+  font-weight:400;
+}
+
+.comment .carousel-inner .carousel-item span
+{
+    font-size:1.3rem;
+    font-weight:600;
+}
+
+.comment .carousel-indicators
+{
+    top: 260px;
+}
+
+.comment .carousel-indicators  li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.comment .carousel-indicators  li {
+   background-color: white;
+}
+.comment .carousel-indicators .active {
+   background-color: #007bff;
+}
+
+/* End Section Comment */
+
+
+
+/* Start Section Quate */
+
+.quate .jumbotron
+{
+ padding:3rem 2rem;     
+}
+.quate .jumbotron-fluid h4
+{
+ padding-top: 7px;
+padding-left:80px;
+}
+.quate .jumbotron-fluid .btnquate
+{
+        padding: .550rem 1.3rem;
+    font-size: 1.1rem;
+    font-weight:bold;
+    border-radius: 2rem;
+  color: #007bff;; 
+    background-color: white;
+    border: 1px solid white;
+}
+.quate .jumbotron-fluid .btnquate:hover{
+  color: white;
+     background-color: #007bff;
+    border: 1px solid white;
+}
+
+/* End Section Quate */
+/* Start Section News */
+
+.news .card 
+{
+text-align: left;
+    border:0px;
+}
+
+.news .card  h5
+{
+    font-weight:400;
+    font-size: 24px;
+}
+.news .card  p   
+{
+    color:gray;
+    padding-top:5px;
+    line-height: 22px;
+}
+.news .card .btnnews
+{
+        padding: .600rem .9rem;
+    font-size: 1rem;
+    font-weight:400;
+    border-radius: 2rem;
+  color: #444;
+    width:126px;
+    margin-top:10px;
+    background-color: white;
+    border: 1px solid #444;
+}
+.news .card  .btnnews:hover{
+  color: white;
+     background-color: #007bff;
+    border: 1px solid white;
+}
+/* End Section NEWs */
+
+/* Start Section Contact */
+
+.contact .contactdiv span i
+{
+    padding:17px 20px;
+    border:1px solid black;
+    border-radius:50%;
+    font-size:21px;
+    cursor: pointer;
+}
+
+.contact .contactdiv span i:hover
+{
+    transition: all .5s ease-in-out;
+    background-color:#007bff;
+    color:white;
+    border-color:#007bff;
+}
+.contact .contactdiv p
+{
+    padding-top:20px;
+   margin-bottom: 5px;
+    font-size:17px;
+}
+
+.contact .contactdiv h5
+{
+    font-weight:400;
+    font-size:16px;
+}
+
+
+.contact form .btncontact
+{
+        padding: .600rem 1.4rem;
+    font-size: 1rem;
+    font-weight:bold;
+    border-radius: 2rem;
+  color: #444;
+    margin-top:20px;
+    background-color: white;
+    border: 1px solid #444;
+}
+.contact form .btncontact:hover{
+  color: white;
+     background-color: #007bff;
+    border: 1px solid white;
+}
+/* End Section Contact */
+
+/* Start Section Footer */
+.footer
+{
+    background-color:#FCFCFC;
+    padding-top:50px;
+}
+
+
+.footer .div1 h3
+{
+    
+    font-size:40px;
+}
+
+.footer .div1 p
+{
+    color:#444;
+    margin-right: 40px;
+    font-size:15px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.footer .div1 .idiv
+{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background-color:white;
+    border:1px solid #444;
+    color:#444;
+    line-height: 40px;
+    display: inline-block;
+    margin-right:10px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+.footer .div1 .idiv:hover
+{
+    background-color:#007bff;
+    border:1px solid #007bff;
+    color:#fff;
+}
+.footer .div1 .idiv i
+{
+    margin-left: 10px;
+    font-size:18px;
+}
+
+.footer .div2 p
+{
+    color:#444;
+    padding-right: 30px;
+    font-size:15px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.footer .div2 h5 ,.footer .div3 h5 
+{
+    font-weight: 400;
+    margin-top: 15px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.footer .div2 ul li
+{
+    color:#444;
+    padding-bottom: 10px;
+}
+.footer .div2 ul li span
+{
+    color: #007bff;
+    font-weight: bold;
+}
+
+.footer .abdoo
+{
+    margin:0px;
+    margin-bottom:-100px;
+    background-color:lightgray;
+}
+
+.footer .div3 .div33
+{
+    padding-top: 20px;
+    width:400px;
+    height:500px;
+}
+.footer .div3 .div33 img
+{
+ display: inline;
+    width:100px;
+    height:80px;
+}
+
+
+/* End Section Footer */
+
+
+
+.faq  ,.services ,.about,.team ,.work ,.table,.quate,.news,.contact
+{
+    padding-top:65px;
+    padding-bottom:65px;
+}
+.faq h1 ,.about h1 ,.services h1 ,.team h1 ,.port h1 ,.table h1,.news h1 ,.contact h1
+{
+    font-size: 42px;
+    color:#444;
+}
+.services .colh ,.faq .colh ,.team .colh ,.email .colh ,.port .colh ,.table .colh ,.news colh ,.contact colh
+{
+    color:#007bff;
+}
